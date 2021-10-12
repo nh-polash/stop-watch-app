@@ -72,7 +72,7 @@ body {
 }
 
 /* Small devices (landscape phones, 576px and up) */
-@media (max-width: 400px) { 
+@media (max-width: 567px) { 
     body {
         overflow: hidden;
     }
@@ -85,8 +85,8 @@ body {
         height: 80px;
     }
     .wrapper .time span {
-        width: 60px;
-        font-size: 25px;
+        width: 40px;
+        font-size: 20px;
     }
     .wrapper .buttons button {
         padding: 6px 12px;
