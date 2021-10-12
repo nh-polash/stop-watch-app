@@ -71,9 +71,13 @@ body {
     opacity: 0.8;
 }
 
-
-
-
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 400px) { 
+    .wrapper .time span {
+        width: 70px;
+        font-size: 30px;
+    }
+}
 
 
 
