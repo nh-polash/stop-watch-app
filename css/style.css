@@ -73,9 +73,19 @@ body {
 
 /* Small devices (landscape phones, 576px and up) */
 @media (max-width: 400px) { 
+    body {
+        overflow: hidden;
+    }
+    .wrapper .time {
+        height: 80px;
+    }
     .wrapper .time span {
-        width: 70px;
-        font-size: 30px;
+        width: 60px;
+        font-size: 25px;
+    }
+    .wrapper .buttons button {
+        padding: 6px 12px;
+        font-size: 15px;
     }
 }
 
